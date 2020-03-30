@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C97E087E2431C30700FC1782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97E087D2431C30700FC1782 /* Foundation.framework */; };
+		C97E08922431C30700FC1782 /* AutoLock.h in Headers */ = {isa = PBXBuildFile; fileRef = C97E08912431C30700FC1782 /* AutoLock.h */; };
+		C97E08942431C30700FC1782 /* AutoLock.m in Sources */ = {isa = PBXBuildFile; fileRef = C97E08932431C30700FC1782 /* AutoLock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C97E087A2431C30700FC1782 /* AutoLock.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = AutoLock.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97E087D2431C30700FC1782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C97E08822431C30700FC1782 /* preinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = preinst; sourceTree = "<group>"; };
+		C97E08832431C30700FC1782 /* postinst */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = postinst; sourceTree = "<group>"; };
+		C97E08842431C30700FC1782 /* postrm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = postrm; sourceTree = "<group>"; };
+		C97E08852431C30700FC1782 /* prerm */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = prerm; sourceTree = "<group>"; };
+		C97E08862431C30700FC1782 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		C97E08872431C30700FC1782 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = control.txt; sourceTree = "<group>"; };
+		C97E08892431C30700FC1782 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PackageVersion.plist; path = ../PackageVersion.plist; sourceTree = "<group>"; };
+		C97E088D2431C30700FC1782 /* AutoLock.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AutoLock.plist; sourceTree = "<group>"; };
+		C97E088E2431C30700FC1782 /* AutoLockIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AutoLockIcon.png; sourceTree = "<group>"; };
+		C97E088F2431C30700FC1782 /* AutoLockIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AutoLockIcon@2x.png"; sourceTree = "<group>"; };
+		C97E08902431C30700FC1782 /* AutoLock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AutoLock-Prefix.pch"; path = "../AutoLock-Prefix.pch"; sourceTree = "<group>"; };
+		C97E08912431C30700FC1782 /* AutoLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoLock.h; sourceTree = "<group>"; };
+		C97E08932431C30700FC1782 /* AutoLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLock.m; sourceTree = "<group>"; };
+		C97E08972431C30700FC1782 /* AutoLock.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AutoLock.plist; sourceTree = "<group>"; };
+		C97E08982431C30700FC1782 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../.gitignore; sourceTree = "<group>"; };
+		C97E08992431C30700FC1782 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97E08762431C30700FC1782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97E087E2431C30700FC1782 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C97E086F2431C30700FC1782 = {
+			isa = PBXGroup;
+			children = (
+				C97E087F2431C30700FC1782 /* AutoLock */,
+				C97E087C2431C30700FC1782 /* Frameworks */,
+				C97E087B2431C30700FC1782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C97E087B2431C30700FC1782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97E087A2431C30700FC1782 /* AutoLock.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C97E087C2431C30700FC1782 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97E087D2431C30700FC1782 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C97E087F2431C30700FC1782 /* AutoLock */ = {
+			isa = PBXGroup;
+			children = (
+				C97E08912431C30700FC1782 /* AutoLock.h */,
+				C97E08932431C30700FC1782 /* AutoLock.m */,
+				C97E08802431C30700FC1782 /* Package */,
+				C97E08882431C30700FC1782 /* Supporting Files */,
+			);
+			path = AutoLock;
+			sourceTree = "<group>";
+		};
+		C97E08802431C30700FC1782 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				C97E08812431C30700FC1782 /* DEBIAN */,
+				C97E088A2431C30700FC1782 /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		C97E08812431C30700FC1782 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				C97E08822431C30700FC1782 /* preinst */,
+				C97E08832431C30700FC1782 /* postinst */,
+				C97E08842431C30700FC1782 /* postrm */,
+				C97E08852431C30700FC1782 /* prerm */,
+				C97E08862431C30700FC1782 /* control */,
+				C97E08872431C30700FC1782 /* control.txt */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		C97E08882431C30700FC1782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C97E08892431C30700FC1782 /* PackageVersion.plist */,
+				C97E08902431C30700FC1782 /* AutoLock-Prefix.pch */,
+				C97E08982431C30700FC1782 /* .gitignore */,
+				C97E08992431C30700FC1782 /* README.md */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C97E088A2431C30700FC1782 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C97E088B2431C30700FC1782 /* PreferenceLoader */,
+				C97E08952431C30700FC1782 /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C97E088B2431C30700FC1782 /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				C97E088C2431C30700FC1782 /* Preferences */,
+			);
+			path = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		C97E088C2431C30700FC1782 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				C97E088D2431C30700FC1782 /* AutoLock.plist */,
+				C97E088E2431C30700FC1782 /* AutoLockIcon.png */,
+				C97E088F2431C30700FC1782 /* AutoLockIcon@2x.png */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		C97E08952431C30700FC1782 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				C97E08962431C30700FC1782 /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		C97E08962431C30700FC1782 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				C97E08972431C30700FC1782 /* AutoLock.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C97E08772431C30700FC1782 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97E08922431C30700FC1782 /* AutoLock.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C97E08792431C30700FC1782 /* AutoLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97E089C2431C30700FC1782 /* Build configuration list for PBXNativeTarget "AutoLock" */;
+			buildPhases = (
+				C97E08742431C30700FC1782 /* ShellScript */,
+				C97E08752431C30700FC1782 /* Sources */,
+				C97E08762431C30700FC1782 /* Frameworks */,
+				C97E08772431C30700FC1782 /* Headers */,
+				C97E08782431C30700FC1782 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLock;
+			productName = AutoLock;
+			productReference = C97E087A2431C30700FC1782 /* AutoLock.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C97E08702431C30700FC1782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				TargetAttributes = {
+					C97E08792431C30700FC1782 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = C97E08732431C30700FC1782 /* Build configuration list for PBXProject "AutoLock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C97E086F2431C30700FC1782;
+			productRefGroup = C97E087B2431C30700FC1782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97E08792431C30700FC1782 /* AutoLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C97E08742431C30700FC1782 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\n# rm -rf \"${PROJECT_DIR}/${TARGET_NAME}/Package/usr/bin/*\"\n# cp -rf \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/PalmRiskSvr\" \"${PROJECT_DIR}/${TARGET_NAME}/Package/usr/bin/\"\n\n# 自动更新deb包版本号\necho $CONFIGURATION\nif [ \"Release\" == \"${CONFIGURATION}\" ]\nthen\npackInfoPlist=\"${PROJECT_DIR}/${TARGET_NAME}/PackageVersion.plist\"\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print PackageRevision\" \"${packInfoPlist}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :PackageRevision $buildNumber\" \"${packInfoPlist}\"\necho \"build number increase\"\nfi";
+		};
+		C97E08782431C30700FC1782 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/EasyDev/bin/ed --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97E08752431C30700FC1782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97E08942431C30700FC1782 /* AutoLock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C97E089A2431C30700FC1782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EasyDevPath = /opt/EasyDev;
+				EasyDevTheosPath = /opt/theos;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/frameworks",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/include",
+					"$(EasyDevTheosPath)/vendor/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C97E089B2431C30700FC1782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EasyDevPath = /opt/EasyDev;
+				EasyDevTheosPath = /opt/theos;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/frameworks",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevPath)/include",
+					"$(EasyDevTheosPath)/vendor/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevTheosPath)/vendor/lib",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		C97E089D2431C30700FC1782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EasyDevAlsoBuildZipPackageOnAnyBuild = NO;
+				EasyDevBuildPackageOnAnyBuild = NO;
+				EasyDevClearUiCacheOnInstall = NO;
+				EasyDevCopyExecutableOnAnyBuild = NO;
+				EasyDevDeviceIP = "";
+				EasyDevDevicePort = "";
+				EasyDevInstallOnAnyBuild = NO;
+				EasyDevInstallOnProfiling = NO;
+				EasyDevKillProcessName = "";
+				EasyDevKillProcessOnInstall = NO;
+				EasyDevUsePackageVersionPList = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLock/AutoLock-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevTheosPath)/vendor/include",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C97E089E2431C30700FC1782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EasyDevAlsoBuildZipPackageOnAnyBuild = NO;
+				EasyDevBuildPackageOnAnyBuild = NO;
+				EasyDevClearUiCacheOnInstall = NO;
+				EasyDevCopyExecutableOnAnyBuild = NO;
+				EasyDevDeviceIP = "";
+				EasyDevDevicePort = "";
+				EasyDevInstallOnAnyBuild = NO;
+				EasyDevInstallOnProfiling = NO;
+				EasyDevKillProcessName = "";
+				EasyDevKillProcessOnInstall = NO;
+				EasyDevUsePackageVersionPList = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLock/AutoLock-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(EasyDevTheosPath)/vendor/include",
+				);
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C97E08732431C30700FC1782 /* Build configuration list for PBXProject "AutoLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97E089A2431C30700FC1782 /* Release */,
+				C97E089B2431C30700FC1782 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97E089C2431C30700FC1782 /* Build configuration list for PBXNativeTarget "AutoLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97E089D2431C30700FC1782 /* Release */,
+				C97E089E2431C30700FC1782 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C97E08702431C30700FC1782 /* Project object */;
+}
