@@ -1,6 +1,6 @@
 Package: net.ymlab.dev.AutoLock
 Name: AutoLock
-Version: 0.1-1
+Version: 1.0-4
 Description: 
 Section: Tweaks
 Depends: firmware (>= 7.0), mobilesubstrate

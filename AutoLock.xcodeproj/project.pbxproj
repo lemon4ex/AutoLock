@@ -354,8 +354,9 @@
 		C97E089D2431C30700FC1782 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuankai xu (385UY7QHV8)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 22AV7NS735;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -370,6 +371,10 @@
 				EasyDevKillProcessName = "";
 				EasyDevKillProcessOnInstall = NO;
 				EasyDevUsePackageVersionPList = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoLock/AutoLock-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -385,8 +390,9 @@
 		C97E089E2431C30700FC1782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yuankai xu (385UY7QHV8)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 22AV7NS735;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -401,6 +407,10 @@
 				EasyDevKillProcessName = "";
 				EasyDevKillProcessOnInstall = NO;
 				EasyDevUsePackageVersionPList = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoLock/AutoLock-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
